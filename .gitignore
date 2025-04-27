@@ -1,0 +1,106 @@
+# .NET Core & .NET 5+ (C#)
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (but not VS 2017)
+# https://github.com/Microsoft/vsts-agent/issues/1147
+.vs2019/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+
+# User-specific files from Rider
+.idea/.idea/
+
+# ASP.NET temporary files
+wwwroot/
+
+# .NET 5+ Core
+artifacts/
+
+# Node.js & TypeScript
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# npm package lock files
+package-lock.json
+yarn.lock
+
+# VS Code settings
+.vscode/
+
+# Thumbnails
+Thumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# User-specific JetBrains Rider config
+.idea/.idea/
+
+# Local History for Rider
+.idea/localHistory/
+
+# NUnit or xUnit test result output
+TestResult.xml
+*.trx
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# C++/CLI files
+*.vcxproj
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific JetBrains Rider config
+.idea/.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
