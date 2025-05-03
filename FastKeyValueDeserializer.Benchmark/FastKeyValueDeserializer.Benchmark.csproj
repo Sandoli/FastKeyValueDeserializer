@@ -9,6 +9,7 @@
 
     <ItemGroup>
         <PackageReference Include="BenchmarkDotNet" Version="0.14.0"/>
+        <PackageReference Include="System.Composition" Version="9.0.4" />
     </ItemGroup>
 
     <ItemGroup>

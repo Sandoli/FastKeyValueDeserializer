@@ -16,7 +16,7 @@ internal class Program
 public class BenchmarkSerializer
 {
     [Benchmark]
-    public void SerializeFull()
+    public void DeserializeFull()
     {
         // Arrange
         var filePath = Path.Combine("TestFiles", "testfile.kv");
@@ -28,7 +28,7 @@ public class BenchmarkSerializer
     }
 
     [Benchmark]
-    public void SerializeLazy()
+    public void DeserializeLazy()
     {
         // Arrange
         var filePath = Path.Combine("TestFiles", "testfile.kv");
@@ -40,13 +40,13 @@ public class BenchmarkSerializer
     }
 
     [Benchmark]
-    public async Task SerializeParallelLazy()
+    public void DeserializeByChar()
     {
         // Arrange
         var filePath = Path.Combine("TestFiles", "testfile.kv");
 
         // Act
-        var result = await ParallelLazyDeserializer.DecodeFile(filePath);
+        var result= FastKeyValueDeserializer.ByChar.AdvancedKeyValueDeserializer.DecodeFile(filePath);
 
         var objects = result.GetValue("key5.subkey5.2") as List<object>;
     }

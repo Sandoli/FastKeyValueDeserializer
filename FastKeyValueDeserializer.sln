@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastKeyValueDeserializer.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastKeyValueDeserializer.Benchmark", "FastKeyValueDeserializer.Benchmark\FastKeyValueDeserializer.Benchmark.csproj", "{D4BB6D4E-563D-4E06-B2F5-4D966007433B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelThreadOnlyAnalyzer", "ExcelThreadOnlyAnalyzer\ExcelThreadOnlyAnalyzer.csproj", "{9A785A14-0444-4A02-BC83-83986D929720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelThreadOnlyCodeFixes", "ExcelThreadOnlyCodeFixes\ExcelThreadOnlyCodeFixes.csproj", "{57550149-D696-4091-9B0F-41D91E05C17E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{D4BB6D4E-563D-4E06-B2F5-4D966007433B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4BB6D4E-563D-4E06-B2F5-4D966007433B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4BB6D4E-563D-4E06-B2F5-4D966007433B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A785A14-0444-4A02-BC83-83986D929720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A785A14-0444-4A02-BC83-83986D929720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A785A14-0444-4A02-BC83-83986D929720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A785A14-0444-4A02-BC83-83986D929720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57550149-D696-4091-9B0F-41D91E05C17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57550149-D696-4091-9B0F-41D91E05C17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57550149-D696-4091-9B0F-41D91E05C17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57550149-D696-4091-9B0F-41D91E05C17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
